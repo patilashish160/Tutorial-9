@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            text-align: center;
+            background-color: red;
+            width: 96%;
+            color: white;
+        }
+        input[type=text1],[type=text2],[type=text] {
+            border: 3px solid;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+        }
+        input[type=text2] {
+           width: 85%;
+        }
+
+        input[type=text1] {
+           width: 40%;
+        }
+        input[type=text] {
+           width: 12%;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <fieldset>
+        <h2>Yes! I want to subscribe to <em>Mag-o-zine</em></h2>
+
+        <input type="text1" name="Firstname">&emsp; <input type="text1" id="Lastname" name="Lastname"> <br>
+        <label for="Firstname">First Name</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<label for="Lastname">Last Name</label> <br>
+
+        <input type="text2" name="Address" id="Address"><br>
+        <label for="Address">Address</label><br>
+
+        <input type="text" id="city" name="city">&emsp;&nbsp;<input type="text" id="city" name="city">&emsp;&nbsp;<input type="text" id="city" name="city"></br>
+        <label for="city">City</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <label for="state">State</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;
+        <label for="zip">Zip</label></br>
+
+        <P><b>Subscribe for:</b>
+       <label><input type="checkbox" checked="checked" name="1 year ($19.95)">1 year ($19.95)</label>
+       <label><input type="checkbox" name="2 year ($35.00)">2 year ($35.00)</label>
+       
+       <p><b>Send me more information about:</b></p>
+       <label><input type="checkbox" checked="checked" name="computer-zine"><b>Computer-Zine</b></label></br>
+       <label><input type="checkbox" name="Fishing-Zine"><b>Fishing-Zine</b></label></br>
+       <label><input type="checkbox" checked="checked" name="cat-o-zine"><b>Cat-O-Zine</b></label></br>
+
+        </P>
+    </fieldset>
+</body>
+</html>
